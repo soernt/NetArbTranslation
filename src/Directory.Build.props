@@ -1,0 +1,26 @@
+<Project>
+    <!-- *******************************************************************
+         Globally settings for every project
+         (This file is evaluated before the Project file (*csproj)
+    ******************************************************************** -->
+
+    <!-- *******************************************************************
+         TargetFramework and Language features
+    ******************************************************************** -->
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <LangVersion>11</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <!-- *******************************************************************
+         Define analyzers settings
+    ******************************************************************** -->
+    <PropertyGroup>
+        <AnalysisModeReliability>true</AnalysisModeReliability>
+        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+        <AnalysisLevel>latest</AnalysisLevel>
+    </PropertyGroup>
+
+</Project>
